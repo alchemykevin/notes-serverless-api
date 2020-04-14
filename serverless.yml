@@ -5,8 +5,8 @@ package:
   individually: true
 
 plugins:
-  - serverless-bundle # Package our functions with Webpack
   - serverless-offline
+  - serverless-bundle # Package our functions with Webpack
   - serverless-dotenv-plugin # Load .env as environment variables
 
 provider:
